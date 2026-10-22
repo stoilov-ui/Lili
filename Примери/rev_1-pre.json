@@ -1,0 +1,261 @@
+{
+  "name": "rev_1-pre",
+  "city": {
+    "name": "Пловдив",
+    "min_winter_temp": -15.0,
+    "winter_temp_04": -10.0,
+    "winter_temp_1": -7.0,
+    "avg_year_temp": 12.0,
+    "max_summer_temp": 37.0,
+    "summer_temp_04": 35.0,
+    "summer_temp_1": 33.0,
+    "summer_temp_2": 31.0,
+    "daily_amplitude": 12.0,
+    "id": null,
+    "uid": "865a8619fbc046efb36b48e32bcb3180"
+  },
+  "winter_mode": "0.4",
+  "summer_mode": "0.4",
+  "default_room_temp_winter": 22.0,
+  "default_room_temp_summer": 25.0,
+  "cooling_month": 7,
+  "kc_roof": 1.0,
+  "kc_wall": 1.0,
+  "default_air_exchange": 0.5,
+  "default_floor_height": 2.8,
+  "building_type": "Едно или двуфамилна",
+  "air_permeability": "Малка",
+  "n50": 2.0,
+  "building_placement": "Полусвободно",
+  "facade_exposure": "Една",
+  "exposure_coefficient": 0.02,
+  "building_mass": "Средна",
+  "delta_t": "2K",
+  "reheating_factor": 16.0,
+  "reheating_time": 2,
+  "foundation_area": 100.0,
+  "foundation_perimeter": 50.0,
+  "groundwater_depth": 2.0,
+  "library": {
+    "constructions": [
+      {
+        "name": "РШТ25,стиропор10см,външна",
+        "layers": [
+          {
+            "material": {
+              "name": "Rse - топл. поток - нагоре",
+              "thermal_conductivity": 0.0,
+              "density": 0.0,
+              "heat_capacity": 0.0,
+              "mu": 0.0,
+              "material_group": "Термично съпротивление",
+              "id": null,
+              "special_R": 0.04,
+              "material_type": "alpha",
+              "uid": "87aec745863f4de39e4d37ca9b457c16"
+            },
+            "thickness_cm": 0.0,
+            "id": null
+          },
+          {
+            "material": {
+              "name": "Варо-пясъчна мазилка (външна)",
+              "thermal_conductivity": 0.87,
+              "density": 1800.0,
+              "heat_capacity": 1050.0,
+              "mu": 5.0,
+              "material_group": "Разтвори и мазилки",
+              "id": null,
+              "special_R": null,
+              "material_type": "normal",
+              "uid": "ea92058195d8407688083644875c60c1"
+            },
+            "thickness_cm": 2.0,
+            "id": null
+          },
+          {
+            "material": {
+              "name": "Експандиран полистирен EPS",
+              "thermal_conductivity": 0.041,
+              "density": 20.0,
+              "heat_capacity": 1260.0,
+              "mu": 75.0,
+              "material_group": "Изолационни материали",
+              "id": null,
+              "special_R": null,
+              "material_type": "normal",
+              "uid": "a3aa9f2d8fe34c89ba6f53ecc8d4d35e"
+            },
+            "thickness_cm": 10.0,
+            "id": null
+          },
+          {
+            "material": {
+              "name": "Кухи и решетъчни тухли на варо-пясъчен разтвор",
+              "thermal_conductivity": 0.52,
+              "density": 1400.0,
+              "heat_capacity": 1050.0,
+              "mu": 5.0,
+              "material_group": "Зидарии",
+              "id": null,
+              "special_R": null,
+              "material_type": "normal",
+              "uid": "77e7e75293774259b1269362fa8968c5"
+            },
+            "thickness_cm": 25.0,
+            "id": null
+          },
+          {
+            "material": {
+              "name": "Варо-пясъчна мазилка (вътрешна)",
+              "thermal_conductivity": 0.7,
+              "density": 1600.0,
+              "heat_capacity": 1050.0,
+              "mu": 5.0,
+              "material_group": "Разтвори и мазилки",
+              "id": null,
+              "special_R": null,
+              "material_type": "normal",
+              "uid": "98616a9976844edd95c6788ca7ff2a39"
+            },
+            "thickness_cm": 2.0,
+            "id": null
+          },
+          {
+            "material": {
+              "name": "Rsi - топл. поток хоризинтален",
+              "thermal_conductivity": 0.0,
+              "density": 0.0,
+              "heat_capacity": 0.0,
+              "mu": 0.0,
+              "material_group": "Термично съпротивление",
+              "id": null,
+              "special_R": 0.13,
+              "material_type": "alpha",
+              "uid": "a4580376ecaa4490a45f4664c0ce7b52"
+            },
+            "thickness_cm": 0.0,
+            "id": null
+          }
+        ],
+        "id": 1,
+        "type_group": "Тухлена стена - външна, изолирана",
+        "uid": "92a3839b4c4e42a0b376b8629a4d3c3d"
+      }
+    ],
+    "windows": [
+      {
+        "name": "PVC прозорец",
+        "R": 0.714,
+        "id": 1,
+        "glazing_type": {
+          "name": "Проз. ст. 3 mm/проз. ст. 3 mm",
+          "transmittance": 0.57,
+          "id": null,
+          "uid": "ce019437ac6b4e47ad03ba1383aa4c91"
+        },
+        "shading_type": {
+          "name": "Вътрешни жалузи (средно оцветени)",
+          "penetration": 0.57,
+          "id": null,
+          "glazing_ids": [],
+          "uid": "ca0517d5c0dd422ba84a1834e916a0c9"
+        },
+        "frame_type": {
+          "name": "Алуминиева дограма",
+          "net_glazing": 0.85,
+          "id": null,
+          "uid": "3f8b438d6b0544e2851e80136a5880b6"
+        },
+        "tilt": 90.0,
+        "uid": "3b5129e8d79e479c8df92745088a5595"
+      }
+    ]
+  },
+  "rooms": [
+    {
+      "name": "Дневна",
+      "floor": 1,
+      "room_number": "101",
+      "length": 5.0,
+      "width": 5.0,
+      "height": 2.8,
+      "internal_temp": 22.0,
+      "cooling_temp": 25.0,
+      "cooling_enabled": true,
+      "elevation": 0.0,
+      "air_exchange_rate": 0.5,
+      "lighting": [],
+      "people": [],
+      "equipment": [],
+      "motors": [],
+      "humidity": [],
+      "materials": [],
+      "envelopes": [
+        {
+          "construction_id": 1,
+          "width_m": 5.0,
+          "height_m": 2.8,
+          "orientation": "Юг",
+          "envelope_type": "външна",
+          "other_side_temp": null,
+          "unheated_coeff": 1.0,
+          "depth": 1.0,
+          "B": 1.0,
+          "groundwater_depth": 2.0,
+          "linear_bridge": 0.05,
+          "linear_length": 5.0,
+          "linear_addition": 0.0,
+          "windows": [
+            {
+              "catalog_id": 1,
+              "width_m": 2.0,
+              "height_m": 2.0,
+              "linear_bridge": 0.05,
+              "linear_length": 2.0,
+              "linear_addition": 0.0,
+              "shade_overhang_cm": 15.0,
+              "shade_left_cm": 15.0,
+              "shade_right_cm": 15.0,
+              "shade_gap_cm": 5.0
+            }
+          ],
+          "cltd_group": null,
+          "suspended_ceiling": false
+        },
+        {
+          "construction_id": 1,
+          "width_m": 5.0,
+          "height_m": 2.8,
+          "orientation": "Запад",
+          "envelope_type": "външна",
+          "other_side_temp": null,
+          "unheated_coeff": 1.0,
+          "depth": 1.0,
+          "B": 1.0,
+          "groundwater_depth": 2.0,
+          "linear_bridge": 0.0,
+          "linear_length": 0.0,
+          "linear_addition": 0.1,
+          "windows": [
+            {
+              "catalog_id": 1,
+              "width_m": 2.0,
+              "height_m": 2.0,
+              "linear_bridge": 0.0,
+              "linear_length": 0.0,
+              "linear_addition": 0.1,
+              "shade_overhang_cm": 15.0,
+              "shade_left_cm": 15.0,
+              "shade_right_cm": 15.0,
+              "shade_gap_cm": 5.0
+            }
+          ],
+          "cltd_group": null,
+          "suspended_ceiling": false
+        }
+      ]
+    }
+  ],
+  "schema_version": 2
+}
