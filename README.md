@@ -24,7 +24,7 @@
 
 | Какво | Къде |
 |--------|------|
-| Програма | [**LiLi.exe**](./LiLi.exe) (или от [Releases](../../releases), ако ползвате издания) |
+| Програма | [Изтегли LiLi.exe](https://github.com/stoilov-ui/LiLi/releases/latest/download/LiLI.exe) |
 | Лиценз | [**LICENSE**](./LICENSE) |
 | Ръководство | [**РЪКОВОДСТВО.md**](./РЪКОВОДСТВО.md) |
 | Примери | папка [**Примери**](./Примери) |
